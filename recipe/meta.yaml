@@ -1,6 +1,6 @@
 {% set name = "Grain" %}
-{% set version = "0.2.12" %}
-{% set sha256 = "e70a30af2a383ecff4d91dc42322e56f7e566fae949650dfb6eeb52648719b36" %}
+{% set version = "0.2.14" %}
+{% set sha256 = "a67ebc9332a6508ce043fed730d811d476c028d35022563bff8d28f4789ba3c8" %}
 # Bazel version is specified upstream, file .bazelversion
 {% set bazel_version = "7.2.1" %}
 
@@ -14,7 +14,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [py<310]
+  skip: true  # [py<311]
   skip: true  # [win]
   skip: true  # [osx]
 
