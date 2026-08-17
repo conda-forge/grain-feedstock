@@ -16,9 +16,7 @@ source:
 
 build:
   number: 0
-  skip:
-    - osx
-    - win
+  skip: win
 
 requirements:
   build:
