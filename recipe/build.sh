@@ -67,3 +67,6 @@ cd "${previous_wd}"
 printf '%s : "=== Output wheel file is in: %s\n' "$(date)" "${DEST}"
 
 $PYTHON -m pip install ./all_dist/grain*.whl
+
+# bazel creates a bunch of u-w directories in BUILD_PREFIX, breaking cleanup
+chmod -R u+w "${BUILD_PREFIX}"/share/bazel
