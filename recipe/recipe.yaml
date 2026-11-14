@@ -1,8 +1,8 @@
 schema_version: 1
 
 context:
-  version: "0.2.18"
-  sha256: 8570a542e5e173ad78aaba36575cd2744264da2e0d56a768220485f5338f34b2
+  version: "0.2.19"
+  sha256: 4b73e4b65c74593f5fb0aaf97498f2ec0bdcfecfe099f66ad2a0bf3defd504ac
   # Bazel version is specified upstream, file .bazelversion
   bazel_version: "7.2.1"
 
